@@ -242,7 +242,7 @@ a {
   text-transform: uppercase;
 }
 a:hover {
-  color: #fcde67;
+  color: #007cc7;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3174,7 +3174,7 @@ textarea.form-control-lg {
 }
 .btn-check:checked + .btn-warning, .btn-check:active + .btn-warning, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
   color: #000;
-  background-color: #ffcd39;
+  background-color: #007cc7;
   border-color: #ffc720;
 }
 .btn-check:checked + .btn-warning:focus, .btn-check:active + .btn-warning:focus, .btn-warning:active:focus, .btn-warning.active:focus, .show > .btn-warning.dropdown-toggle:focus {
@@ -6472,7 +6472,7 @@ textarea.form-control-lg {
   color: #ffc107;
 }
 .link-warning:hover, .link-warning:focus {
-  color: #ffcd39;
+  color: #007cc7;
 }
 
 .link-danger {
@@ -7813,7 +7813,9 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #fcde67 !important;
+  background-color: #f5f5f5  !important; /* Main background color "Web Developer*/
+
+  
 }
 
 .bg-secondary {
@@ -11402,11 +11404,16 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #2c3e50;
-    background: #fcde67;
+    background: #fff; /* floating / moving navbar or nav bar color */
   }
+
+  #footerBg{
+    background-color:#5bccf6 ;
+  }
+
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #2c3e50;
-    background: #fcde67;
+    background: #007cc7;
   }
 
   #mainNav.navbar-shrink {
